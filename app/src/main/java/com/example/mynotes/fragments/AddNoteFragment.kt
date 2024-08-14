@@ -54,6 +54,7 @@ class AddNoteFragment : Fragment(R.layout.fragment_add_note), MenuProvider {
 
         if (noteTitle.isNotEmpty()) {
             val note = Note(0, noteTitle, noteDesc)
+            notesViewModel.addNote(note)
 
             Toast.makeText(addNoteView.context, "Note Saved", Toast.LENGTH_SHORT).show()
 

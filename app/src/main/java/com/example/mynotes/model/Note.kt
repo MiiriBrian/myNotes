@@ -9,8 +9,7 @@ import kotlinx.parcelize.Parcelize
 @Parcelize // ensure our objects can be transferred btn activities.
 data class Note(
     @PrimaryKey(autoGenerate = true)
-
     val id: Int,
     val noteTitle: String,
     val noteDesc: String
-) :Parcelable
+): Parcelable

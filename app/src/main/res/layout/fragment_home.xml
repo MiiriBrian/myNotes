@@ -38,7 +38,7 @@
             android:layout_height="match_parent"
             android:id="@+id/emptyNotesImage"
             android:importantForAccessibility="no"
-            android:visibility="visible"
+            android:visibility="gone"
             android:src="@drawable/empty_notes"/>
 
     </androidx.constraintlayout.widget.ConstraintLayout>
